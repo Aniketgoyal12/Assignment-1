@@ -1,0 +1,19 @@
+// Program to display the n terms of odd natural numbers and their sum.//
+
+#include <stdio.h>
+int main()
+
+{
+    int n , i , sum=0 ;
+    printf("Enter the number of terms");
+    scanf("%d", &n);
+    printf("\nThe odd numbers are");
+    for(i=1;i<=n;i+=2)
+    {
+        printf("\n%d", i);
+        sum+=i;
+    }
+    printf("\nThe sum is %d",sum);
+    return 0;
+}
+    
